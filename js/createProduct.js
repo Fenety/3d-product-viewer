@@ -4,7 +4,7 @@ function createProduct(scene) {
 
   // Materials
   const baseMaterial = new THREE.MeshPhysicalMaterial({
-    color: 0xd3d3d3, // Dark blue-gray
+    color: 0xd3d3d3, // light grau
     metalness: 0.8,
     roughness: 0.2,
     clearcoat: 0.5,

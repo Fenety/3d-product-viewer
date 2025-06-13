@@ -1,7 +1,7 @@
 let isUserInteracting = false;
 let lastInteractionTime = 0;
-const ROTATION_SPEED = 0.3; // Degrees per second
-const RESUME_DELAY = 500; // 2 seconds before auto-rotation resumes
+const ROTATION_SPEED = 15; // Degrees per second - increased for faster rotation
+const RESUME_DELAY = 2000; // 0.5 seconds before auto-rotation resumes
 const CAMERA_RADIUS = 6;
 const CAMERA_HEIGHT = 2.5;
 
